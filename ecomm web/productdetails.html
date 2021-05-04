@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products-Natural Green |online fruits and herbs shopping website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+<body>
+ 
+  
+<div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-1.png" width="125px" ></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px"  height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+</div>
+    
+<!-------------single product details----------->
+   <div class="small-container single-product">
+       <div class="row">
+           <div class="col-2">
+            <img src="images/mango.jpg" width="100%" id="productImg">
+           </div>
+           <div class="col-2">
+               <p>Benefits/Skin and hair,Heart disease,Diabetes,</p>
+               <h1>MANGO</h1>
+               <h4>$50.00</h4>
+               <input type="number" value="1">
+               <a href="" class="btn">Add To Cart</a>
+
+               <h3>Product Details</h3>
+               <p>This fruit is not only delicious but also boasts an impressive nutritional profile.In fact, studies link mango and its nutrients to health benefits, such as improved immunity, digestive health and eyesight, as well as a lower risk of certain cancers.Mango is low in calories but full of nutrients.</p>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-2">
+         <img src="images/KIWI.jpg" width="100%" id="productImg">
+        </div>
+        <div class="col-2">
+            <p>Benefits/boosting Immune System,help treat asthma</p>
+            <h1>Kiwi</h1>
+            <h4>$50.00</h4>
+            <input type="number" value="1">
+            <a href="" class="btn">Add To Cart</a>
+
+            <h3>Product Details</h3>
+            <p>Kiwis are small fruits that pack a lot of flavor and plenty of health benefits. Their green flesh is sweet and tangy. It’s also full of nutrients like vitamin C, vitamin K, vitamin E, folate, and potassium. They also have a lot of antioxidants and are a good source of fiber. Their small black seeds are edible, as is the fuzzy brown peel, though many prefer to peel the kiwi before eating it.</p>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-2">
+     <img src="images/Strawberry.jpg" width="80%" id="productImg">
+    </div>
+    <div class="col-2">
+        <p>Benefits/heart disease,Cancer, Blood pressure</p>
+        <h1>Strawberry</h1>
+        <h4>$50.00</h4>
+        <input type="number" value="1">
+        <a href="" class="btn">Add To Cart</a>
+
+        <h3>Product Details</h3>
+        <p>These potent little packages protect your heart, increase HDL (good) cholesterol, lower your blood pressure, and guard against cancer.Packed with vitamins, fiber, and particularly high levels of antioxidants known as polyphenols, strawberries are sodium-free, fat-free, cholesterol-free, low-calorie food.</p>
+ </div>
+</div>
+
+</div>
+
+<!--------------footer-------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                 <img src="images/logo-white.png">
+                <p>Our Purpose Is to Sustainably Make the pleasure of custmores by providing fresh and good quality of products.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                 <ul>
+                     <li>Coupons</li>
+                     <li>Blog Post</li> 
+                     <li>Return policy</li>
+                     <li>Join Affiliate</li>
+                 </ul>
+           </div>
+           <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                   <li>Facebook</li>
+                   <li>Twitter</li> 
+                   <li>Instagram</li>
+                   <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!---------js for toggle menu---------->
+<script>
+    var MenuItems =document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight=="0px")
+        {
+            MenuItems.style.maxHeight="200px";
+        }
+        else{
+            MenuItems.style.maxHeight="0px";
+        }
+    }
+</script>
+
+
+
+
+<!----------js for product gallary------>
+<script>
+    var productImg =document.getElementById("productImg")
+</script>
+</body>
+</html>
